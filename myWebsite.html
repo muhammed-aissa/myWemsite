@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+	<!--  to writting from right to lift on website (Arabic) you will put in side <html dir = 'rtl'> right to lift -->
+	<head>
+		<title>MY WEBSITE</title>
+		<meta charset= "utf-8" />
+		<!-- to use arabic chars-->
+		<link rel="stylesheet" href="style/styles.css" />
+	</head>
+
+	<body>
+		<!-- body background-->
+		<br />
+		<h1 id="myId">محمد عيسى</h1>
+		<br />
+		<div id="welcome" class="name">أهلا وسهلا</div>
+		<br />
+
+		<div class="boga">
+			<!-- link inside image -->
+			<a href='http://www.realmadrid.com' target = '_blank'>
+				<image src ="Real1.jpg" height='200' width='200'/>
+			</a>
+
+		</div>
+		<br />
+		<br />
+		<!-- الجداول -->
+		<table border ='1' align='right' width='50%' >
+			<!-- creating table tag-->
+			<tr>
+				<!-- starting row-->
+				<td>الاسم</td>
+				<!-- td means cell on the table-->
+				<td>الرقم</td>
+				<td>التاريخ</td>
+			</tr>
+			<tr>
+				<td>احمد</td>
+				<td>5</td>
+				<td>12/05/2020</td>
+			</tr>
+			<tr>
+				<td>محمد</td>
+				<td>10</td>
+				<td>12/05/2001</td>
+			</tr>
+			<br />
+			<form>
+			</table>
+			<table action="myWebsite.html" method="POST">
+				<tr>
+					<td>الإيميل</td>
+					<td/>
+					<input name="" type="email" value="" autofocus="" required="required" placeholder="ضع إيميلك هنا " />
+				</tr>
+				<tr>
+					<td>كلمة المرور</td>
+					<td/>
+					<input name="" type="password" value="" required="required" placeholder="ضع كلمة المرور هنا">
+					</td>
+				</tr>
+				<tr>
+					<td>الجنس</td>
+					<td/>
+					<input name="" type="radio" value=""> ذكر<input name="" type="radio" value=""> أنثى</td>
+					</tr>
+					<tr>
+						<td>رايك بالموقع</td>
+						<td/>
+						<input name="" type="checkbox" value=""> ممتاز <input name="" type="checkbox" value=""> ضعيف</td>
+						</tr>
+						<tr>
+							<td>حالة الموقع</td>
+							<td>
+								<select name="">
+									<option value = "1">مفتوح</option>
+									<option value ="2">مغلق</option>
+								</td>
+							</tr>
+						</table>
+
+						<table>
+							<tr>
+								<td>
+									<input name="" type="submit" value="حفظ البيانات" />
+								</td>
+							</tr>
+						</table>
+					</form>
+					<ul>
+						<li>الهلال</li>
+						<li>الانحاد</li>
+						<li>الاهللي</li>
+						<li>النصر</li>
+					</ul>
+					
+					<script type='text/javascript'>
+						var myId= document.getElementById("myId");
+						myId.innerText="MUHAMMED AISA";
+						
+						var f=document.getElementById("welcome");
+						f.innerText="WELCOME";
+						f.setAttribute("color","silver");
+			
+					</script>
+				</body>
+			</html>
